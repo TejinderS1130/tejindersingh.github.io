@@ -24,7 +24,7 @@
   --nav-dropdown-hover-color: #ffffff; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
 }
 
-/* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
+/* Color Presets*/
 
 .light-background {
   --background-color: #f4fafd;
@@ -74,7 +74,7 @@ h6 {
   font-family: var(--heading-font);
 }
 
-/* PHP Email Form Messages
+/* Header
 ------------------------------*/
 .php-email-form .error-message {
   display: none;
@@ -126,9 +126,7 @@ h6 {
   }
 }
 
-/*--------------------------------------------------------------
-# Global Header
---------------------------------------------------------------*/
+/*- Global Header*/
 .header {
   color: var(--default-color);
   background-color: var(--background-color);
@@ -233,9 +231,7 @@ h6 {
   background-color: color-mix(in srgb, var(--accent-color) 90%, white 15%);
 }
 
-/*--------------------------------------------------------------
-# Navigation Menu
---------------------------------------------------------------*/
+/* Navigation Menu-*/
 .mobile-nav-toggle {
   display: none;
 }
@@ -348,9 +344,7 @@ h6 {
   background-color: rgba(33, 37, 41, 0.03);
 }
 
-/*--------------------------------------------------------------
-# Global Footer
---------------------------------------------------------------*/
+/*Global Footer*/
 .footer {
   color: var(--default-color);
   background-color: var(--background-color);
@@ -370,9 +364,7 @@ h6 {
   text-align: center;
 }
 
-/*--------------------------------------------------------------
-# Preloader
---------------------------------------------------------------*/
+/*-Preloader-*/
 #preloader {
   position: fixed;
   inset: 0;
@@ -405,9 +397,7 @@ h6 {
   }
 }
 
-/*--------------------------------------------------------------
-# Scroll Top Button
---------------------------------------------------------------*/
+/*Scroll Top Button*/
 .scroll-top {
   position: fixed;
   visibility: hidden;
@@ -439,18 +429,14 @@ h6 {
   bottom: 15px;
 }
 
-/*--------------------------------------------------------------
-# Disable aos animation delay on mobile devices
---------------------------------------------------------------*/
+/*-Disable aos animation delay on mobile devices*/
 @media screen and (max-width: 768px) {
   [data-aos-delay] {
     transition-delay: 0 !important;
   }
 }
 
-/*--------------------------------------------------------------
-# Global Page Titles & Breadcrumbs
---------------------------------------------------------------*/
+/*-Global Page Titles & Breadcrumbs*/
 .page-title {
   color: var(--default-color);
   background-color: var(--background-color);
@@ -484,9 +470,7 @@ h6 {
   color: color-mix(in srgb, var(--default-color), transparent 70%);
 }
 
-/*--------------------------------------------------------------
-# Global Sections
---------------------------------------------------------------*/
+/*-Global Sections*/
 section,
 .section {
   color: var(--default-color);
@@ -495,9 +479,7 @@ section,
   overflow: clip;
 }
 
-/*--------------------------------------------------------------
-# Global Section Titles
---------------------------------------------------------------*/
+/*-Global Section Titles*/
 .section-title {
   padding-bottom: 60px;
   position: relative;
@@ -526,9 +508,7 @@ section,
   margin-bottom: 0;
 }
 
-/*--------------------------------------------------------------
-# Hero Section
---------------------------------------------------------------*/
+/*-Hero Section*/
 .hero {
   width: 100%;
   min-height: 100vh;
@@ -605,9 +585,7 @@ section,
   }
 }
 
-/*--------------------------------------------------------------
-# About Section
---------------------------------------------------------------*/
+/*-About Section*/
 .about .content h2 {
   font-weight: 700;
   font-size: 24px;
@@ -635,9 +613,7 @@ section,
   line-height: 0;
 }
 
-/*--------------------------------------------------------------
-# Stats Section
---------------------------------------------------------------*/
+/*- Stats Section*/
 .stats .stats-item {
   padding: 10px;
   width: 100%;
@@ -668,9 +644,7 @@ section,
   font-size: 14px;
 }
 
-/*--------------------------------------------------------------
-# Skills Section
---------------------------------------------------------------*/
+/*-Skills Section-*/
 .skills .progress {
   height: 60px;
   display: block;
@@ -705,9 +679,7 @@ section,
   background-color: var(--accent-color);
 }
 
-/*--------------------------------------------------------------
-# Resume Section
---------------------------------------------------------------*/
+/*-Resume Section*/
 .resume .resume-title {
   color: var(--heading-color);
   font-size: 26px;
@@ -764,9 +736,7 @@ section,
   border: 2px solid var(--accent-color);
 }
 
-/*--------------------------------------------------------------
-# Portfolio Section
---------------------------------------------------------------*/
+/*-Portfolio Section*/
 .portfolio .portfolio-filters {
   padding: 0;
   margin: 0 auto 20px auto;
@@ -878,9 +848,7 @@ section,
 }
 
 
-/*--------------------------------------------------------------
-# Contact Section
---------------------------------------------------------------*/
+/*-Contact Section*/
 .contact .info-wrap {
   background-color: var(--surface-color);
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
