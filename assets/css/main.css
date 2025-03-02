@@ -847,6 +847,98 @@ section,
   transform: scale(1.1);
 }
 
+/* GitHub Section */
+.github-section {
+  text-align: center;
+  padding: 60px 0;
+  margin-top: 50px;
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 0.1));
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.github-section:hover {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.github-section h3 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: var(--primary-color);
+  letter-spacing: 2px;
+  animation: fadeIn 1s ease-out;
+}
+
+.github-section p {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.7);
+  margin-bottom: 30px;
+  opacity: 0;
+  animation: fadeIn 1.5s ease-out forwards;
+}
+
+.github-section .btn {
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 15px 35px;
+  border-radius: 50px;
+  color: #fff;
+  background-color: var(--accent-color);
+  border: 2px solid var(--accent-color);
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.github-section .btn:hover {
+  
+  transform: translateY(-4px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  border-color: var(--primary-color);
+}
+
+.github-section .btn i {
+  margin-right: 8px;
+  font-size: 20px;
+  transition: transform 0.3s ease;
+}
+
+.github-section .btn:hover i {
+  transform: rotate(360deg);
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 575px) {
+  .github-section h3 {
+    font-size: 22px;
+  }
+
+  .github-section p {
+    font-size: 16px;
+  }
+
+  .github-section .btn {
+    font-size: 14px;
+    padding: 12px 28px;
+  }
+}
+
+
 
 /*-Contact Section*/
 .contact .info-wrap {
